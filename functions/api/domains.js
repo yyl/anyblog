@@ -28,47 +28,82 @@ function parseDomains(csvText) {
   return domains;
 }
 
+function isAllowedOrigin(origin, requestUrl) {
+  if (!origin) return false;
+
+  try {
+    const originUrl = new URL(origin);
+    const hostUrl = new URL(requestUrl);
+
+    // Allow same origin
+    if (originUrl.origin === hostUrl.origin) return true;
+
+    // Allow localhost for development
+    if (
+      originUrl.hostname === "localhost" ||
+      originUrl.hostname === "127.0.0.1"
+    ) {
+      return true;
+    }
+
+    // Allow Cloudflare Pages preview domains
+    if (originUrl.hostname.endsWith(".pages.dev")) return true;
+  } catch (err) {
+    return false;
+  }
+
+  return false;
+}
+
 export async function onRequest(context) {
+  const { request } = context;
+  const origin = request.headers.get("Origin");
   const cache = caches.default;
 
   // Try to serve from cache
-  const cachedResponse = await cache.match(CACHE_KEY);
-  if (cachedResponse) {
-    return cachedResponse;
-  }
+  let response = await cache.match(CACHE_KEY);
 
-  // Cache miss — fetch from GitHub
-  try {
-    const res = await fetch(CSV_URL, {
-      headers: { "User-Agent": "randomblog-cloudflare-pages-function" },
-    });
+  if (!response) {
+    // Cache miss — fetch from GitHub
+    try {
+      const res = await fetch(CSV_URL, {
+        headers: { "User-Agent": "randomblog-cloudflare-pages-function" },
+      });
 
-    if (!res.ok) {
+      if (!res.ok) {
+        return new Response(
+          JSON.stringify({ error: `GitHub returned ${res.status}` }),
+          { status: 502, headers: { "Content-Type": "application/json" } }
+        );
+      }
+
+      const csvText = await res.text();
+      const domains = parseDomains(csvText);
+
+      response = new Response(JSON.stringify({ domains }), {
+        headers: {
+          "Content-Type": "application/json",
+          "Cache-Control": `public, max-age=${CACHE_TTL}`,
+        },
+      });
+
+      // Store in the Cloudflare cache (non-blocking)
+      context.waitUntil(cache.put(CACHE_KEY, response.clone()));
+    } catch (err) {
       return new Response(
-        JSON.stringify({ error: `GitHub returned ${res.status}` }),
+        JSON.stringify({ error: "Failed to fetch CSV from GitHub" }),
         { status: 502, headers: { "Content-Type": "application/json" } }
       );
     }
-
-    const csvText = await res.text();
-    const domains = parseDomains(csvText);
-
-    const response = new Response(JSON.stringify({ domains }), {
-      headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": `public, max-age=${CACHE_TTL}`,
-        "Access-Control-Allow-Origin": "*",
-      },
-    });
-
-    // Store in the Cloudflare cache (non-blocking)
-    context.waitUntil(cache.put(CACHE_KEY, response.clone()));
-
-    return response;
-  } catch (err) {
-    return new Response(
-      JSON.stringify({ error: "Failed to fetch CSV from GitHub" }),
-      { status: 502, headers: { "Content-Type": "application/json" } }
-    );
   }
+
+  // Create a new response to set CORS headers dynamically
+  const newResponse = new Response(response.body, response);
+  newResponse.headers.set("Vary", "Origin");
+
+  if (isAllowedOrigin(origin, request.url)) {
+    newResponse.headers.set("Access-Control-Allow-Origin", origin);
+  }
+
+  return newResponse;
 }
