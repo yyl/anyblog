@@ -6,7 +6,7 @@ const CACHE_TTL = 60 * 60; // 1 hour in seconds
 
 /**
  * Parse the CSV and extract the first column (domain).
- * Handles quoted fields properly.
+ * Assumes the first column does not contain commas or quotes.
  */
 function parseDomains(csvText) {
   const lines = csvText.split("\n");
