@@ -26,10 +26,10 @@ class Response {
 
 class URL {
   constructor(url) {
-    const match = url.match(/^(https?:\/\/)?([^\/]+)(\/.*)?$/);
-    this.href = url;
-    this.origin = (match[1] || '') + match[2];
-    this.hostname = match[2].split(':')[0];
+    const parsed = new (require('url').URL)(url);
+    this.href = parsed.href;
+    this.origin = parsed.origin;
+    this.hostname = parsed.hostname;
   }
 }
 
@@ -46,40 +46,11 @@ global.fetch = async () => ({
   text: async () => "domain,count\nexample.com,1\ntest.com,2"
 });
 
-// Load the function code
-let code = fs.readFileSync(path.join(__dirname, '../functions/api/domains.js'), 'utf8');
-
-// Remove exports for evaluation
-code = code.replace(/export /g, '');
-
-// Create a sandbox for the code
-const sandbox = {
-  console,
-  global,
-  Response,
-  URL,
-  caches,
-  fetch,
-  module: { exports: {} }
-};
-
-// Evaluate the code
-const script = `
-  ${code}
-  module.exports = { onRequest };
-`;
-
-try {
-  const fn = new Function('module', 'Response', 'URL', 'caches', 'fetch', script);
-  fn(sandbox.module, Response, URL, caches, fetch);
-} catch (e) {
-  console.error("Failed to evaluate script:", e);
-  process.exit(1);
-}
-
-const { onRequest } = sandbox.module.exports;
-
 async function runTest() {
+  // Use dynamic import to load the ESM module
+  const modulePath = path.join(__dirname, '../functions/api/domains.js');
+  const { onRequest } = await import('file://' + modulePath);
+
   const tests = [
     {
       name: "Same origin should be allowed",
