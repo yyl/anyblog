@@ -8,9 +8,12 @@ const CACHE_TTL = 60 * 60; // 1 hour in seconds
  * Parse the CSV and extract the first column (domain).
  * Handles quoted fields properly.
  */
-function parseDomains(csvText) {
+export function parseDomains(csvText) {
   const lines = csvText.split("\n");
   const domains = [];
+  // Basic domain regex: allows alphanumeric, hyphens, and dots.
+  // Must start and end with alphanumeric, no consecutive dots or hyphens.
+  const domainRegex = /^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$/i;
 
   for (let i = 1; i < lines.length; i++) {
     const line = lines[i].trim();
@@ -20,7 +23,7 @@ function parseDomains(csvText) {
     const commaIndex = line.indexOf(",");
     const domain = commaIndex === -1 ? line : line.substring(0, commaIndex);
 
-    if (domain) {
+    if (domain && domainRegex.test(domain)) {
       domains.push(domain);
     }
   }
