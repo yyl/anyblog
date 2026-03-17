@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Take me to a blog</title>
+  <title>Anyblog</title>
   <meta name="description" content="Discover a random blog from the Hacker News community.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -116,7 +116,7 @@
         const data = await res.json();
         domains = data.domains;
 
-        btn.textContent = 'Take me to a blog';
+        btn.textContent = 'Anyblog';
         btn.disabled = false;
       } catch (err) {
         console.error('Failed to load domains:', err);
