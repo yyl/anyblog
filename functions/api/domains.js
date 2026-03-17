@@ -9,20 +9,26 @@ const CACHE_TTL = 60 * 60; // 1 hour in seconds
  * Handles quoted fields properly.
  */
 function parseDomains(csvText) {
-  const lines = csvText.split("\n");
   const domains = [];
+  const len = csvText.length;
+  let lineStart = csvText.indexOf("\n") + 1;
 
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i].trim();
-    if (!line) continue;
+  if (lineStart === 0) return domains;
 
-    // The domain is always the first column and never contains commas or quotes
-    const commaIndex = line.indexOf(",");
-    const domain = commaIndex === -1 ? line : line.substring(0, commaIndex);
+  while (lineStart < len) {
+    let lineEnd = csvText.indexOf("\n", lineStart);
+    if (lineEnd === -1) lineEnd = len;
 
-    if (domain) {
-      domains.push(domain);
+    const line = csvText.substring(lineStart, lineEnd).trim();
+    if (line) {
+      const commaIndex = line.indexOf(",");
+      const domain = commaIndex === -1 ? line : line.substring(0, commaIndex);
+      if (domain) {
+        domains.push(domain);
+      }
     }
+
+    lineStart = lineEnd + 1;
   }
 
   return domains;
