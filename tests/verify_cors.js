@@ -65,10 +65,22 @@ async function runTest() {
       expected: "http://localhost:8788"
     },
     {
-      name: "pages.dev should be allowed",
-      origin: "https://preview.pages.dev",
+      name: "Specific project pages.dev should be allowed",
+      origin: "https://anyblog.pages.dev",
       url: "https://my-site.com/api/domains",
-      expected: "https://preview.pages.dev"
+      expected: "https://anyblog.pages.dev"
+    },
+    {
+      name: "Project preview subdomain should be allowed",
+      origin: "https://abcd.anyblog.pages.dev",
+      url: "https://my-site.com/api/domains",
+      expected: "https://abcd.anyblog.pages.dev"
+    },
+    {
+      name: "Other pages.dev should NOT be allowed",
+      origin: "https://other-project.pages.dev",
+      url: "https://my-site.com/api/domains",
+      expected: undefined
     },
     {
       name: "Malicious site should NOT be allowed",
@@ -107,7 +119,25 @@ async function runTest() {
     }
   }
 
-  console.log(`\nTests passed: ${passed}/${tests.length}`);
+  // Additional test for Vary header
+  const contextVary = {
+    request: {
+      url: "https://my-site.com/api/domains",
+      headers: { get: () => "https://anyblog.pages.dev" }
+    },
+    waitUntil: () => {}
+  };
+  const resVary = await onRequest(contextVary);
+  const vary = resVary.headers.get("Vary");
+  if (vary && vary.toLowerCase().includes("origin")) {
+    console.log("✅ PASS: Vary header contains Origin");
+    passed++;
+  } else {
+    console.error(`❌ FAIL: Vary header does not contain Origin. Got: ${vary}`);
+  }
+
+  const totalTests = tests.length + 1;
+  console.log(`\nTests passed: ${passed}/${totalTests}`);
   if (passed !== tests.length) {
     process.exit(1);
   }

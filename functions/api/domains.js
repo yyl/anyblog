@@ -46,8 +46,14 @@ function isAllowedOrigin(origin, requestUrl) {
       return true;
     }
 
-    // Allow Cloudflare Pages preview domains
-    if (originUrl.hostname.endsWith(".pages.dev")) return true;
+    // Allow Cloudflare Pages preview domains for this project
+    const projectDomain = "anyblog.pages.dev";
+    if (
+      originUrl.hostname === projectDomain ||
+      originUrl.hostname.endsWith("." + projectDomain)
+    ) {
+      return true;
+    }
   } catch (err) {
     return false;
   }
@@ -99,7 +105,17 @@ export async function onRequest(context) {
 
   // Create a new response to set CORS headers dynamically
   const newResponse = new Response(response.body, response);
-  newResponse.headers.set("Vary", "Origin");
+
+  // Safely append Origin to Vary header
+  const existingVary = newResponse.headers.get("Vary");
+  if (existingVary) {
+    const varyValues = existingVary.split(",").map((v) => v.trim().toLowerCase());
+    if (!varyValues.includes("origin")) {
+      newResponse.headers.set("Vary", `${existingVary}, Origin`);
+    }
+  } else {
+    newResponse.headers.set("Vary", "Origin");
+  }
 
   if (isAllowedOrigin(origin, request.url)) {
     newResponse.headers.set("Access-Control-Allow-Origin", origin);
