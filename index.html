@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -37,9 +40,11 @@
       font-size: 1.15rem;
       font-weight: 500;
       color: #ffffff;
-      background: #0f172a; /* Solid dark elegant color */
+      background: #0f172a;
+      /* Solid dark elegant color */
       border: none;
-      border-radius: 99px; /* Pill shape */
+      border-radius: 99px;
+      /* Pill shape */
       cursor: pointer;
       transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.2s ease;
       box-shadow: 0 4px 14px rgba(15, 23, 42, 0.15);
@@ -71,13 +76,14 @@
     .footer {
       margin-top: 1.5rem;
       font-size: 0.8rem;
-      color: #64748b;
+      color: #475569;
+      text-align: center;
       opacity: 0;
       animation: fadeIn 0.6s ease-out 0.3s forwards;
     }
 
     .footer a {
-      color: #64748b;
+      color: #475569;
       text-decoration: none;
       border-bottom: 1px dotted #cbd5e1;
       padding-bottom: 2px;
@@ -89,25 +95,86 @@
       border-color: #94a3b8;
     }
 
+    .toggle-link {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .about-text {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, margin 0.4s ease;
+      opacity: 0;
+      margin-top: 0;
+      line-height: 1.6;
+      max-width: 340px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .about-text.expanded {
+      max-height: 200px;
+      opacity: 1;
+      margin-top: 0.75rem;
+    }
+
+    .about-text a {
+      color: #475569;
+      border-bottom: 1px dotted #cbd5e1;
+      padding-bottom: 1px;
+      text-decoration: none;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .about-text a:hover {
+      color: #0f172a;
+      border-color: #94a3b8;
+    }
+
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
+
 <body>
-  
+
   <button id="random-btn" class="btn" disabled>
     Loading...
   </button>
 
   <footer class="footer">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7YT2gvY1QTQIc90b4HEurXLX9z-rWnVLz_xFiK9WQ02rE3A/viewform?usp=publish-editor" target="_blank" rel="noopener">Submit a blog</a> &middot; Primarily sourced from <a href="https://github.com/mtlynch/hn-popularity-contest-data" target="_blank" rel="noopener">mtlynch/hn-popularity-contest-data</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7YT2gvY1QTQIc90b4HEurXLX9z-rWnVLz_xFiK9WQ02rE3A/viewform?usp=publish-editor"
+      target="_blank" rel="noopener">Submit a blog</a> &middot; <a id="about-toggle" class="toggle-link" role="button"
+      tabindex="0">What is this?</a>
+    <p id="about-text" class="about-text">
+      Clicking the button will take you to a random personal blog that primarily sourced from <a
+        href="https://github.com/mtlynch/hn-popularity-contest-data" target="_blank" rel="noopener">this crowd-sourced
+        list</a>. Take a spin or learn more about this website <a
+        href="https://www.mildlyjournaling.com/posts/anyblog-the-roulette-to-discover-new-blogs/" target="_blank"
+        rel="noopener">here</a>.
+    </p>
   </footer>
 
   <script>
     const btn = document.getElementById('random-btn');
     let domains = [];
+
+    // "What is this?" toggle
+    const aboutToggle = document.getElementById('about-toggle');
+    const aboutText = document.getElementById('about-text');
+    aboutToggle.addEventListener('click', () => {
+      aboutText.classList.toggle('expanded');
+      aboutToggle.textContent = aboutText.classList.contains('expanded') ? 'Close' : 'What is this?';
+    });
 
     async function loadDomains() {
       try {
@@ -126,7 +193,7 @@
 
     btn.addEventListener('click', () => {
       if (domains.length === 0) return;
-      
+
       // Provide visual feedback
       const originalText = btn.textContent;
       btn.textContent = 'Finding a blog...';
@@ -140,4 +207,5 @@
     loadDomains();
   </script>
 </body>
+
 </html>
