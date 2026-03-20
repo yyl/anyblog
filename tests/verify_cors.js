@@ -138,7 +138,7 @@ async function runTest() {
 
   const totalTests = tests.length + 1;
   console.log(`\nTests passed: ${passed}/${totalTests}`);
-  if (passed !== tests.length) {
+  if (passed !== totalTests) {
     process.exit(1);
   }
 }
