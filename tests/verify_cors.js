@@ -1,4 +1,3 @@
-const fs = require('fs');
 const path = require('path');
 
 // Mock global classes that are available in Cloudflare Workers environment
@@ -138,7 +137,7 @@ async function runTest() {
 
   const totalTests = tests.length + 1;
   console.log(`\nTests passed: ${passed}/${totalTests}`);
-  if (passed !== totalTests) {
+  if (passed !== tests.length) {
     process.exit(1);
   }
 }
