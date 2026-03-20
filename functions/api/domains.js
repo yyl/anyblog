@@ -104,7 +104,11 @@ export async function onRequest(context) {
   }
 
   // Create a new response to set CORS headers dynamically
-  const newResponse = new Response(response.body, response);
+  const newResponse = new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers: new Headers(response.headers),
+  });
 
   // Safely append Origin to Vary header
   const existingVary = newResponse.headers.get("Vary");
