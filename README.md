@@ -2,36 +2,42 @@
 
 A Cloudflare Pages website that randomly selects a personal blog from the Hacker News community dataset.
 
-It uses a Cloudflare Pages Function (`functions/api/domains.js`) as an edge proxy to fetch the raw CSV from GitHub and cache it using the Cache API. The frontend (`index.html`) is static and loads instantly.
+A weekly GitHub Action fetches the latest blog list from the [crowd-sourced dataset](https://github.com/mtlynch/hn-popularity-contest-data), parses valid domains, and commits a static `domains.json` file. The frontend loads this static file directly from the CDN — no edge functions or runtime fetching required.
 
 ## Architecture
-- **Frontend**: Vanilla HTML/CSS/JS (Instant load, background data fetch).
-- **Backend Proxy**: Cloudflare Pages Function at `/api/domains`.
-- **Cache**: Cloudflare Cache API (1-hour TTL, zero config required).
+- **Frontend**: Vanilla HTML/CSS/JS. Loads `domains.json` from the CDN on page load.
+- **Data Pipeline**: GitHub Action (weekly cron) fetches CSV → parses → commits `domains.json`.
+- **Hosting**: Cloudflare Pages (static site, no functions).
 
 ## Local Development & Testing
 
-To test this locally (including the Pages Function), you will use `wrangler`, Cloudflare's CLI tool.
+The site is purely static, so any simple HTTP server works:
 
-### Prerequisites
-Make sure you have Node.js and `npm` installed.
+```bash
+# Python (built-in, no install needed)
+python3 -m http.server 8788
+```
 
-### Running Locally
+Then open `http://localhost:8788` in your browser.
 
-1. Open your terminal in this repository's directory.
-2. Start the local development server:
-   ```bash
-   npx wrangler pages dev . --port 8788
-   ```
-3. Open `http://localhost:8788` in your browser.
-4. You should see "Loading blogs..." briefly, followed by "713 blogs loaded".
-5. Click the "Take me somewhere" button to navigate to a random blog.
+## Refreshing the Domain List
 
-*Note: The first request might take a second as it fetches the CSV from GitHub. Subsequent reloads within the hour will hit the edge cache and load in < 50ms.*
+The domain list is refreshed automatically every Monday at 8:00 AM UTC via GitHub Actions. You can also trigger it manually:
+
+1. Go to **Actions** → **Refresh Domain List** → **Run workflow**.
+2. If the list has changed, a new commit will be pushed and Cloudflare Pages will auto-deploy.
+
+To refresh locally:
+```bash
+curl -fsSL "https://raw.githubusercontent.com/mtlynch/hn-popularity-contest-data/master/data/domains-meta.csv" \
+  | tail -n +2 | cut -d',' -f1 \
+  | grep -E '^([a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]$' \
+  | sort | jq -R -s 'split("\n") | map(select(length > 0))' > domains.json
+```
 
 ## Deployment
 
-To deploy this straight to Cloudflare infrastructure:
+Deploys automatically via Cloudflare Pages on push to `main`. Manual deploy:
 
 ```bash
 npx wrangler pages deploy .

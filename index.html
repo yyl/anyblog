@@ -178,10 +178,9 @@
 
     async function loadDomains() {
       try {
-        const res = await fetch('/api/domains');
+        const res = await fetch('/domains.json');
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
-        domains = data.domains;
+        domains = await res.json();
 
         btn.textContent = 'Anyblog';
         btn.disabled = false;
