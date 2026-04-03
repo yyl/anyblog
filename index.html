@@ -131,6 +131,16 @@
       border-color: #94a3b8;
     }
 
+    .source-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .source-list li + li {
+      margin-top: 0.45rem;
+    }
+
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -154,25 +164,56 @@
   <footer class="footer">
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7YT2gvY1QTQIc90b4HEurXLX9z-rWnVLz_xFiK9WQ02rE3A/viewform?usp=publish-editor"
       target="_blank" rel="noopener">Submit a blog</a> &middot; <a id="about-toggle" class="toggle-link" role="button"
-      tabindex="0">What is this?</a>
+      tabindex="0">What is this?</a> &middot; <a id="sources-toggle" class="toggle-link" role="button"
+      tabindex="0">Sources</a>
     <p id="about-text" class="about-text">
-      Clicking the button will take you to a random blog that is sourced from <a
-        href="https://refactoringenglish.com/tools/hn-popularity" target="_blank" rel="noopener">the HackerNews Popularity Contest</a>. Take a spin or learn more about this website <a
+      Clicking the button takes you straight to a random blog. Take a spin or learn more about this website <a
         href="https://www.mildlyjournaling.com/posts/anyblog-the-roulette-to-discover-new-blogs/" target="_blank"
         rel="noopener">here</a>.
     </p>
+    <div id="sources-text" class="about-text">
+    <ul class="source-list">
+      <li><a href="https://refactoringenglish.com/tools/hn-popularity" target="_blank" rel="noopener">Hacker News
+          Popularity Contest</a></li>
+      <li><a href="https://bearblog.dev/discover/?newest=true" target="_blank" rel="noopener">Bear Blog newest
+          discovery feed</a></li>
+    </ul>
+    </div>
   </footer>
 
   <script>
     const btn = document.getElementById('random-btn');
     let domains = [];
 
-    // "What is this?" toggle
     const aboutToggle = document.getElementById('about-toggle');
     const aboutText = document.getElementById('about-text');
+    const sourcesToggle = document.getElementById('sources-toggle');
+    const sourcesText = document.getElementById('sources-text');
+
+    function setExpanded(section, expanded) {
+      section.classList.toggle('expanded', expanded);
+    }
+
     aboutToggle.addEventListener('click', () => {
-      aboutText.classList.toggle('expanded');
-      aboutToggle.textContent = aboutText.classList.contains('expanded') ? 'Close' : 'What is this?';
+      const nextExpanded = !aboutText.classList.contains('expanded');
+      setExpanded(aboutText, nextExpanded);
+      aboutToggle.textContent = nextExpanded ? 'Close' : 'What is this?';
+
+      if (nextExpanded) {
+        setExpanded(sourcesText, false);
+        sourcesToggle.textContent = 'Sources';
+      }
+    });
+
+    sourcesToggle.addEventListener('click', () => {
+      const nextExpanded = !sourcesText.classList.contains('expanded');
+      setExpanded(sourcesText, nextExpanded);
+      sourcesToggle.textContent = nextExpanded ? 'Close' : 'Sources';
+
+      if (nextExpanded) {
+        setExpanded(aboutText, false);
+        aboutToggle.textContent = 'What is this?';
+      }
     });
 
     async function loadDomains() {
@@ -193,7 +234,6 @@
       if (domains.length === 0) return;
 
       // Provide visual feedback
-      const originalText = btn.textContent;
       btn.textContent = 'Finding a blog...';
       btn.style.opacity = '0.7';
 

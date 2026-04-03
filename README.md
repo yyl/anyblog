@@ -6,6 +6,7 @@ A weekly GitHub Action fetches the latest blog list from the [crowd-sourced data
 
 ## Architecture
 - **Frontend**: Vanilla HTML/CSS/JS. Loads `domains.json` from the CDN on page load.
+- **Discovery UI**: The footer keeps a short "What is this?" explainer and a separate "Sources" toggle that lists the current upstream datasets.
 - **Data Pipeline**: GitHub Action (weekly cron) runs `scripts/refresh_domains.py`, which fetches the HN CSV, ingests Bear Blog's newest RSS feed, updates `bearblog-state.json`, runs parallel HEAD checks, and commits `domains.json` of active websites.
 - **Source State**: `bearblog-state.json` remembers every Bear Blog domain discovered so far, along with first-seen and latest-post metadata, without requiring a database.
 - **Hosting**: Cloudflare Pages (static site, no functions).
