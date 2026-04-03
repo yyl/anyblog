@@ -17,88 +17,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Fetch and parse domains
+        id: refresh_domains
         run: |
           set -euo pipefail
-
-          CSV_URL="https://raw.githubusercontent.com/mtlynch/hn-popularity-contest-data/master/data/domains-meta.csv"
-
-          echo "Fetching CSV from $CSV_URL..."
-          csv=$(curl -fsSL "$CSV_URL")
-
-          # Parse: skip header, extract first column, validate domain format
-          echo "$csv" \
-            | tail -n +2 \
-            | cut -d',' -f1 \
-            | grep -E '^([a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]$' \
-            | sort \
-            > domains_raw.txt
-
-          count=$(wc -l < domains_raw.txt)
-          echo "Parsed $count domains from CSV"
-
-      - name: Health check domains (parallel HEAD requests)
-        run: |
-          set -euo pipefail
-
-          # Write a per-domain checker script.
-          # A domain is considered alive if curl receives *any* HTTP response
-          # (exit 0). Network-level failures (DNS, timeout, connection refused)
-          # produce a non-zero curl exit code and are treated as dead.
-          cat > /tmp/check_domain.sh << 'SCRIPT'
-          #!/bin/bash
-          domain=$1
-          http_code=$(curl \
-            --silent --output /dev/null \
-            --head --location \
-            --connect-timeout 5 --max-time 10 \
-            --user-agent "Mozilla/5.0 (compatible; anyblog-healthcheck/1.0)" \
-            --write-out "%{http_code}" \
-            "https://${domain}" 2>/dev/null)
-          curl_exit=$?
-          if [ "$curl_exit" -eq 0 ]; then
-            echo "$domain"
-          else
-            echo "✗ ${domain}  (curl exit ${curl_exit}, HTTP ${http_code})" >&2
-          fi
-          SCRIPT
-          chmod +x /tmp/check_domain.sh
-
-          echo "Running HEAD checks with 25 parallel workers..."
-          # Failures go to stderr (visible in Actions log), valid domains to stdout
-          cat domains_raw.txt \
-            | xargs -P 25 -I{} /tmp/check_domain.sh {} \
-            1>domains_valid.txt \
-            2>domains_failed.txt
-
-          valid=$(wc -l < domains_valid.txt | tr -d ' ')
-          failed=$(wc -l < domains_failed.txt | tr -d ' ')
-          echo "✓ ${valid} alive  ✗ ${failed} removed"
-          
-          echo "DOMAINS_VALID=${valid}" >> $GITHUB_ENV
-          echo "DOMAINS_FAILED=${failed}" >> $GITHUB_ENV
-
-          if [ "$failed" -gt 0 ]; then
-            echo ""
-            echo "--- Removed domains ---"
-            cat domains_failed.txt
-          fi
-
-      - name: Write domains.json
-        run: |
-          set -euo pipefail
-          sort domains_valid.txt \
-            | jq -R -s 'split("\n") | map(select(length > 0))' \
-            > domains.json
-          echo "Written $(jq length domains.json) domains to domains.json"
+          python3 scripts/refresh_domains.py --github-output "$GITHUB_OUTPUT"
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add domains.json
+          git add domains.json bearblog-state.json
           if git diff --cached --quiet; then
-            echo "No changes to domains.json, skipping commit."
+            echo "No changes to tracked source files, skipping commit."
           else
-            git commit -m "chore: refresh domain list (${DOMAINS_VALID} survived, ${DOMAINS_FAILED} removed)"
+            git commit -m "chore: refresh domain list (${{ steps.refresh_domains.outputs.active_domains }} active, ${{ steps.refresh_domains.outputs.bearblog_new_domains }} Bear Blog new, ${{ steps.refresh_domains.outputs.removed_domains }} removed)"
             git push
           fi

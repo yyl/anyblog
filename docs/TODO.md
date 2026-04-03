@@ -2,24 +2,24 @@
 
 ## P1
 
-### Add health checks to the domain refresh pipeline
+### Increase Bear Blog refresh frequency
 
 - Status: Open
 - File: `.github/workflows/refresh-domains.yml`
-- Problem: The refresh pipeline currently trusts all domains from the upstream CSV without validation.
+- Problem: Bear Blog discovery currently refreshes on the same weekly cadence as the HN import, which may delay newly discovered blogs from reaching `domains.json`.
 - Next steps:
-  - Add HEAD request checks (with timeout + concurrency limits) to the GitHub Action.
-  - Exclude domains that fail DNS resolution or return non-2xx/3xx responses.
-  - Log removed domains for visibility.
+  - Decide whether Bear Blog should refresh hourly or every few hours.
+  - Split the workflow into per-source schedules if HN should remain weekly.
+  - Keep commit volume and Pages deploy frequency within acceptable bounds.
 
 ## P2
 
-### Make CSV parsing more robust
+### Add a Bear Blog backfill source
 
 - Status: Open
-- File: `.github/workflows/refresh-domains.yml`
-- Problem: The parser assumes the domain is always the first unquoted column and extracts it by splitting on the first comma.
-- Risk: If the upstream CSV format changes, the action can silently produce a partial or empty domain list.
+- File: `scripts/refresh_domains.py`
+- Problem: The pipeline currently uses only Bear Blog's newest feed, which is good for incremental discovery but may miss older active blogs.
 - Next steps:
-  - Validate the CSV header before parsing rows.
-  - Fail the workflow if domain count drops below a threshold (e.g., 500).
+  - Evaluate adding Bear Blog trending pages or feed as a secondary source.
+  - Keep the backfill pass idempotent and deduplicated against `bearblog-state.json`.
+  - Add guardrails so the source mix stays predictable over time.
