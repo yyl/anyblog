@@ -73,6 +73,9 @@ jobs:
           valid=$(wc -l < domains_valid.txt | tr -d ' ')
           failed=$(wc -l < domains_failed.txt | tr -d ' ')
           echo "✓ ${valid} alive  ✗ ${failed} removed"
+          
+          echo "DOMAINS_VALID=${valid}" >> $GITHUB_ENV
+          echo "DOMAINS_FAILED=${failed}" >> $GITHUB_ENV
 
           if [ "$failed" -gt 0 ]; then
             echo ""
@@ -96,7 +99,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to domains.json, skipping commit."
           else
-            count=$(jq length domains.json)
-            git commit -m "chore: refresh domain list ($count domains)"
+            git commit -m "chore: refresh domain list (${DOMAINS_VALID} survived, ${DOMAINS_FAILED} removed)"
             git push
           fi
