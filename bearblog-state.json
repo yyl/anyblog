@@ -1,6 +1,140 @@
 {
-  "domains": {},
+  "domains": {
+    "barrel.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:14:00+00:00",
+      "latest_post_title": "From HackerNews to Bear",
+      "latest_post_url": "https://barrel.bearblog.dev/from-hackernews-to-bear/"
+    },
+    "blog.catshavenolord.page": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:49:00+00:00",
+      "latest_post_title": "Review - The Flooded Greenhouse",
+      "latest_post_url": "https://blog.catshavenolord.page/review-the-flooded-greenhouse/"
+    },
+    "chupacabra.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T20:38:14.835509+00:00",
+      "latest_post_title": "Deleted my mastodon",
+      "latest_post_url": "https://chupacabra.bearblog.dev/deleted-my-mastodon/"
+    },
+    "conniesue.me": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T19:47:00+00:00",
+      "latest_post_title": "I May Have Mooned a Neighbor (Again)",
+      "latest_post_url": "https://conniesue.me/i-may-have-mooned-a-neighbor-again/"
+    },
+    "datarivets.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T22:18:00+00:00",
+      "latest_post_title": "About",
+      "latest_post_url": "https://datarivets.bearblog.dev/about/"
+    },
+    "frogwizard.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T19:10:00+00:00",
+      "latest_post_title": "A Script to Connect My Bluetooth Headphones",
+      "latest_post_url": "https://frogwizard.bearblog.dev/a-script-to-connect-my-bluetooth-headphones/"
+    },
+    "hemera.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:58:02.743612+00:00",
+      "latest_post_title": "The Overlap Between the Table and the Classroom",
+      "latest_post_url": "https://hemera.bearblog.dev/the-overlap-between-the-table-and-the-classroom/"
+    },
+    "imperfect.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T19:30:00+00:00",
+      "latest_post_title": "create when compelled",
+      "latest_post_url": "https://imperfect.bearblog.dev/create-when-compelled/"
+    },
+    "jamesbaker.uk": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T19:55:51.539782+00:00",
+      "latest_post_title": "\ud83d\udcbf A Lesson On Owning Music",
+      "latest_post_url": "https://jamesbaker.uk/a-lesson-on-owning-music/"
+    },
+    "mattiverse.online": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T19:21:00+00:00",
+      "latest_post_title": "call to arts",
+      "latest_post_url": "https://mattiverse.online/call-to-arts/"
+    },
+    "outre-combe.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T20:05:00+00:00",
+      "latest_post_title": "Log #1 - Quelque chose",
+      "latest_post_url": "https://outre-combe.bearblog.dev/reliquat/"
+    },
+    "scholarch.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:24:00+00:00",
+      "latest_post_title": "ABC03 \u2013 Poems for exile",
+      "latest_post_url": "https://scholarch.bearblog.dev/abc03-poems-for-exile/"
+    },
+    "streetlightcadence.com": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:53:00+00:00",
+      "latest_post_title": "+1 for indie music",
+      "latest_post_url": "https://streetlightcadence.com/1-for-indie-music/"
+    },
+    "sweetdisposition.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T19:47:00+00:00",
+      "latest_post_title": "photos from yesterday",
+      "latest_post_url": "https://sweetdisposition.bearblog.dev/photos-from-yesterday/"
+    },
+    "tallywinkle.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:36:00+00:00",
+      "latest_post_title": "college and grilled cheese | TS2 maslow legacy pt 6",
+      "latest_post_url": "https://tallywinkle.bearblog.dev/maslow-legacy-6/"
+    },
+    "tomanotas.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:50:00+00:00",
+      "latest_post_title": "nas ondas do r\u00e1dio",
+      "latest_post_url": "https://tomanotas.bearblog.dev/nas-ondas-do-radio/"
+    },
+    "unwissen.blog": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:56:00+00:00",
+      "latest_post_title": "Internet f\u00fcr Anf\u00e4ngerInnen",
+      "latest_post_url": "https://unwissen.blog/internet-fur-anfangerinnen/"
+    },
+    "wiredforbooks.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T19:14:30.407990+00:00",
+      "latest_post_title": "initial-commit",
+      "latest_post_url": "https://wiredforbooks.bearblog.dev/initial-commit/"
+    },
+    "zevvdaily.bearblog.dev": {
+      "first_seen_at": "2026-04-03T23:07:33+00:00",
+      "last_seen_at": "2026-04-03T23:07:33+00:00",
+      "latest_post_published_at": "2026-04-03T21:26:47.678777+00:00",
+      "latest_post_title": "Take a break sometimes",
+      "latest_post_url": "https://zevvdaily.bearblog.dev/take-a-break-sometimes/"
+    }
+  },
   "feed_url": "https://bearblog.dev/discover/feed/?newest=True",
-  "last_refreshed_at": null,
+  "last_refreshed_at": "2026-04-03T23:07:33+00:00",
   "version": 1
 }
