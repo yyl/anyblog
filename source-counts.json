@@ -1,0 +1,17 @@
+{
+  "generated_at": null,
+  "sources": [
+    {
+      "count": 0,
+      "id": "hn-popularity",
+      "label": "Hacker News Popularity Contest",
+      "url": "https://refactoringenglish.com/tools/hn-popularity"
+    },
+    {
+      "count": 0,
+      "id": "bearblog-newest",
+      "label": "Bear Blog newest discovery feed",
+      "url": "https://bearblog.dev/discover/?newest=true"
+    }
+  ]
+}

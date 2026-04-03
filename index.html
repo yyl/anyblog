@@ -141,6 +141,12 @@
       margin-top: 0.45rem;
     }
 
+    .source-count {
+      color: #64748b;
+      margin-left: 0.3rem;
+      white-space: nowrap;
+    }
+
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -174,9 +180,9 @@
     <div id="sources-text" class="about-text">
     <ul class="source-list">
       <li><a href="https://refactoringenglish.com/tools/hn-popularity" target="_blank" rel="noopener">Hacker News
-          Popularity Contest</a></li>
+          Popularity Contest</a><span id="source-count-hn-popularity" class="source-count"></span></li>
       <li><a href="https://bearblog.dev/discover/?newest=true" target="_blank" rel="noopener">Bear Blog newest
-          discovery feed</a></li>
+          discovery feed</a><span id="source-count-bearblog-newest" class="source-count"></span></li>
     </ul>
     </div>
   </footer>
@@ -189,6 +195,10 @@
     const aboutText = document.getElementById('about-text');
     const sourcesToggle = document.getElementById('sources-toggle');
     const sourcesText = document.getElementById('sources-text');
+    const sourceCountElements = {
+      'hn-popularity': document.getElementById('source-count-hn-popularity'),
+      'bearblog-newest': document.getElementById('source-count-bearblog-newest')
+    };
 
     function setExpanded(section, expanded) {
       section.classList.toggle('expanded', expanded);
@@ -215,6 +225,24 @@
         aboutToggle.textContent = 'What is this?';
       }
     });
+
+    async function loadSourceCounts() {
+      try {
+        const res = await fetch('/source-counts.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const payload = await res.json();
+
+        if (!payload.sources || !Array.isArray(payload.sources)) return;
+
+        for (const source of payload.sources) {
+          const node = sourceCountElements[source.id];
+          if (!node || typeof source.count !== 'number') continue;
+          node.textContent = `: ${source.count}`;
+        }
+      } catch (err) {
+        console.error('Failed to load source counts:', err);
+      }
+    }
 
     async function loadDomains() {
       try {
@@ -243,6 +271,7 @@
 
     // Start fetching immediately
     loadDomains();
+    loadSourceCounts();
   </script>
 </body>
 

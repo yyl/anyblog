@@ -38,6 +38,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--domains-json", default="domains.json")
     parser.add_argument("--bear-state-json", default="bearblog-state.json")
+    parser.add_argument("--source-counts-json", default="source-counts.json")
     parser.add_argument("--hn-csv-url", default=HN_CSV_URL)
     parser.add_argument("--bear-feed-url", default=BEARBLOG_FEED_URL)
     parser.add_argument("--github-output", default="")
@@ -250,6 +251,7 @@ def main() -> int:
     args = parse_args()
     domains_path = Path(args.domains_json)
     bear_state_path = Path(args.bear_state_json)
+    source_counts_path = Path(args.source_counts_json)
 
     existing_domains: set[str] = set()
     if domains_path.exists():
@@ -273,6 +275,26 @@ def main() -> int:
 
     write_json(domains_path, alive_domains)
     write_json(bear_state_path, bear_state)
+    write_json(
+        source_counts_path,
+        {
+            "generated_at": refreshed_at,
+            "sources": [
+                {
+                    "id": "hn-popularity",
+                    "label": "Hacker News Popularity Contest",
+                    "url": "https://refactoringenglish.com/tools/hn-popularity",
+                    "count": len(hn_domains),
+                },
+                {
+                    "id": "bearblog-newest",
+                    "label": "Bear Blog newest discovery feed",
+                    "url": "https://bearblog.dev/discover/?newest=true",
+                    "count": len({entry.domain for entry in bear_entries}),
+                },
+            ],
+        },
+    )
 
     print(f"HN domains: {len(hn_domains)}")
     print(f"Bear Blog domains tracked: {len(bear_domains)} (+{new_bear_domains} new this run)")
