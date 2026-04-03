@@ -25,7 +25,7 @@ Then open `http://localhost:8788` in your browser.
 The domain list is refreshed automatically every Monday at 8:00 AM UTC via GitHub Actions. It will verify each domain via a HEAD request, and only keep reachable domains. You can also trigger it manually:
 
 1. Go to **Actions** → **Refresh Domain List** → **Run workflow**.
-2. If the list has changed, a new commit will be pushed and Cloudflare Pages will auto-deploy.
+2. If the list has changed, a new commit will be pushed and Cloudflare Pages will auto-deploy. The automated commit message will record the number of domains that survived the health check versus those that were removed (e.g., `chore: refresh domain list (679 survived, 24 removed)`).
 
 To perform a refresh matching the GitHub Action locally, run the script within `.github/workflows/refresh-domains.yml`.
 
