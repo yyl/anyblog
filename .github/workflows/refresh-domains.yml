@@ -31,11 +31,62 @@ jobs:
             | cut -d',' -f1 \
             | grep -E '^([a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]$' \
             | sort \
+            > domains_raw.txt
+
+          count=$(wc -l < domains_raw.txt)
+          echo "Parsed $count domains from CSV"
+
+      - name: Health check domains (parallel HEAD requests)
+        run: |
+          set -euo pipefail
+
+          # Write a per-domain checker script.
+          # A domain is considered alive if curl receives *any* HTTP response
+          # (exit 0). Network-level failures (DNS, timeout, connection refused)
+          # produce a non-zero curl exit code and are treated as dead.
+          cat > /tmp/check_domain.sh << 'SCRIPT'
+          #!/bin/bash
+          domain=$1
+          http_code=$(curl \
+            --silent --output /dev/null \
+            --head --location \
+            --connect-timeout 5 --max-time 10 \
+            --user-agent "Mozilla/5.0 (compatible; anyblog-healthcheck/1.0)" \
+            --write-out "%{http_code}" \
+            "https://${domain}" 2>/dev/null)
+          curl_exit=$?
+          if [ "$curl_exit" -eq 0 ]; then
+            echo "$domain"
+          else
+            echo "✗ ${domain}  (curl exit ${curl_exit}, HTTP ${http_code})" >&2
+          fi
+          SCRIPT
+          chmod +x /tmp/check_domain.sh
+
+          echo "Running HEAD checks with 25 parallel workers..."
+          # Failures go to stderr (visible in Actions log), valid domains to stdout
+          cat domains_raw.txt \
+            | xargs -P 25 -I{} /tmp/check_domain.sh {} \
+            1>domains_valid.txt \
+            2>domains_failed.txt
+
+          valid=$(wc -l < domains_valid.txt | tr -d ' ')
+          failed=$(wc -l < domains_failed.txt | tr -d ' ')
+          echo "✓ ${valid} alive  ✗ ${failed} removed"
+
+          if [ "$failed" -gt 0 ]; then
+            echo ""
+            echo "--- Removed domains ---"
+            cat domains_failed.txt
+          fi
+
+      - name: Write domains.json
+        run: |
+          set -euo pipefail
+          sort domains_valid.txt \
             | jq -R -s 'split("\n") | map(select(length > 0))' \
             > domains.json
-
-          count=$(jq length domains.json)
-          echo "Parsed $count domains"
+          echo "Written $(jq length domains.json) domains to domains.json"
 
       - name: Commit if changed
         run: |
