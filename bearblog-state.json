@@ -1,5 +1,12 @@
 {
   "domains": {
+    "appleciders.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T05:04:53.803385+00:00",
+      "latest_post_title": "text me back pleaaaaaaaaaaaaase",
+      "latest_post_url": "https://appleciders.bearblog.dev/text-me-back-pleaaaaaaaaaaaaase/"
+    },
     "barrel.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
@@ -13,6 +20,27 @@
       "latest_post_published_at": "2026-04-03T21:49:00+00:00",
       "latest_post_title": "Review - The Flooded Greenhouse",
       "latest_post_url": "https://blog.catshavenolord.page/review-the-flooded-greenhouse/"
+    },
+    "blog.lauramichet.com": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T06:58:00+00:00",
+      "latest_post_title": "I immediately broke one of my mesh radios!!",
+      "latest_post_url": "https://blog.lauramichet.com/i-immediately-broke-one-of-my-mesh-radios/"
+    },
+    "bxm.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T04:03:00+00:00",
+      "latest_post_title": "\u600e\u4e48\u8fd8\u6709\u4eb2\u5988\u5f00\u81ea\u5df1\u7684",
+      "latest_post_url": "https://bxm.bearblog.dev/new-post-new/"
+    },
+    "cerberus.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T05:24:35.348552+00:00",
+      "latest_post_title": "[art] coffee, a dark souls boss, and an absolute Unit",
+      "latest_post_url": "https://cerberus.bearblog.dev/art-coffee-a-dark-souls-boss-and-an-absolute-unit/"
     },
     "chupacabra.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -28,12 +56,33 @@
       "latest_post_title": "I May Have Mooned a Neighbor (Again)",
       "latest_post_url": "https://conniesue.me/i-may-have-mooned-a-neighbor-again/"
     },
+    "dailyexplorations.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T06:18:55.271798+00:00",
+      "latest_post_title": "New frontier",
+      "latest_post_url": "https://dailyexplorations.bearblog.dev/new-frontier/"
+    },
     "datarivets.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
       "latest_post_published_at": "2026-04-03T22:18:00+00:00",
       "latest_post_title": "About",
       "latest_post_url": "https://datarivets.bearblog.dev/about/"
+    },
+    "davidmcgee.xyz": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T06:21:00+00:00",
+      "latest_post_title": "I Probably Won't Date Men",
+      "latest_post_url": "https://davidmcgee.xyz/i-probably-wont-date-men/"
+    },
+    "etan.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T06:00:00+00:00",
+      "latest_post_title": "Easter in the Cancer Ward - Poem\u00a0by Nicholas Samaras",
+      "latest_post_url": "https://etan.bearblog.dev/easter-in-the-cancer-ward-poem-by-nicholas-samaras/"
     },
     "frogwizard.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -63,6 +112,34 @@
       "latest_post_title": "\ud83d\udcbf A Lesson On Owning Music",
       "latest_post_url": "https://jamesbaker.uk/a-lesson-on-owning-music/"
     },
+    "jdtorian.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T05:00:00+00:00",
+      "latest_post_title": "Cigarette Granny",
+      "latest_post_url": "https://jdtorian.bearblog.dev/cigarette-granny/"
+    },
+    "jollyanchorblog.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T04:55:31.528927+00:00",
+      "latest_post_title": "cozyy night",
+      "latest_post_url": "https://jollyanchorblog.bearblog.dev/cozyy-night/"
+    },
+    "kvch.me": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T07:21:19.297848+00:00",
+      "latest_post_title": "How AI changed the way I review code",
+      "latest_post_url": "https://kvch.me/how-ai-changed-i-review-code/"
+    },
+    "mason.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T05:35:32.624958+00:00",
+      "latest_post_title": "read slowly",
+      "latest_post_url": "https://mason.bearblog.dev/read-slowly/"
+    },
     "mattiverse.online": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
@@ -70,12 +147,54 @@
       "latest_post_title": "call to arts",
       "latest_post_url": "https://mattiverse.online/call-to-arts/"
     },
+    "mpmilestogo.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T06:49:00+00:00",
+      "latest_post_title": "writing falters",
+      "latest_post_url": "https://mpmilestogo.bearblog.dev/writing-falters/"
+    },
+    "musing.ispretty.fyi": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T06:38:41.696599+00:00",
+      "latest_post_title": "spent the day weeding the driveway",
+      "latest_post_url": "https://musing.ispretty.fyi/blog/spent-the-day-weeding-the-driveway/"
+    },
     "outre-combe.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
       "latest_post_published_at": "2026-04-03T20:05:00+00:00",
       "latest_post_title": "Log #1 - Quelque chose",
       "latest_post_url": "https://outre-combe.bearblog.dev/reliquat/"
+    },
+    "rabbitreading.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T04:15:00+00:00",
+      "latest_post_title": "Day 9: Sylvia Townsend Warner, Susan Sontag, Edna Millay",
+      "latest_post_url": "https://rabbitreading.bearblog.dev/day-9-sylvia-townsend-warner-susan-sontag-edna-millay/"
+    },
+    "reedybear.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T05:28:00+00:00",
+      "latest_post_title": "Getting a right angle with nothing but a tape measure",
+      "latest_post_url": "https://reedybear.bearblog.dev/getting-a-right-angle-with-nothing-but-a-tape-measure/"
+    },
+    "ronja.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T06:55:00+00:00",
+      "latest_post_title": "solidaritet med cuba",
+      "latest_post_url": "https://ronja.bearblog.dev/new-post/"
+    },
+    "samhawken.com": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T04:23:31.439103+00:00",
+      "latest_post_title": "Know thy enemy",
+      "latest_post_url": "https://samhawken.com/know-thy-enemy/"
     },
     "scholarch.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -105,6 +224,13 @@
       "latest_post_title": "college and grilled cheese | TS2 maslow legacy pt 6",
       "latest_post_url": "https://tallywinkle.bearblog.dev/maslow-legacy-6/"
     },
+    "thenarrativist.bearblog.dev": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T04:29:21.707216+00:00",
+      "latest_post_title": "Woof!",
+      "latest_post_url": "https://thenarrativist.bearblog.dev/woof/"
+    },
     "tomanotas.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
@@ -119,12 +245,26 @@
       "latest_post_title": "Internet f\u00fcr Anf\u00e4ngerInnen",
       "latest_post_url": "https://unwissen.blog/internet-fur-anfangerinnen/"
     },
+    "vaudevillegho.st": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T07:46:31.660837+00:00",
+      "latest_post_title": "explaining house of leaves",
+      "latest_post_url": "https://www.vaudevillegho.st/explaining-house-of-leaves/"
+    },
     "wiredforbooks.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
       "latest_post_published_at": "2026-04-03T19:14:30.407990+00:00",
       "latest_post_title": "initial-commit",
       "latest_post_url": "https://wiredforbooks.bearblog.dev/initial-commit/"
+    },
+    "yordi.me": {
+      "first_seen_at": "2026-04-06T09:15:48+00:00",
+      "last_seen_at": "2026-04-06T09:15:48+00:00",
+      "latest_post_published_at": "2026-04-06T06:48:35.773699+00:00",
+      "latest_post_title": "Flying Flowerpots and Fainting Spells",
+      "latest_post_url": "https://yordi.me/flying-flowerpots-and-fainting-spells/"
     },
     "zevvdaily.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -135,6 +275,6 @@
     }
   },
   "feed_url": "https://bearblog.dev/discover/feed/?newest=True",
-  "last_refreshed_at": "2026-04-03T23:07:33+00:00",
+  "last_refreshed_at": "2026-04-06T09:15:48+00:00",
   "version": 1
 }
