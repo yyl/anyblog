@@ -1,5 +1,26 @@
 {
   "domains": {
+    "1eld.bearblog.dev": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:45:10.894824+00:00",
+      "latest_post_title": "\uc0b0\uc5c5\uc0ac\ud68c\uc640 \uadf8 \ubbf8\ub798(\uc2dc\uc5b4\ub3c4\uc5b4 \uce74\uc9c4\uc2a4\ud0a4) \uc804\ubb38",
+      "latest_post_url": "https://1eld.bearblog.dev/9009/"
+    },
+    "73pctgeek.com": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:27:02+00:00",
+      "latest_post_title": "834",
+      "latest_post_url": "https://73pctgeek.com/834/"
+    },
+    "angama.bearblog.dev": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:52:00+00:00",
+      "latest_post_title": "\u2712\ufe0f\u30b3\u30ed\u30ca\u30a6\u30a4\u30eb\u30b9\u306f\u30ab\u30aa\u30b9\u306e\u4f7f\u8005\u3002\u7d30\u80de\u819c\u306b\u6700\u3082\u523a\u3055\u308a\u3084\u3059\u3044\u89d2\u5ea6\u3092\u63a2\u7d22\u3059\u308b\u305f\u3081\u3001\u4e00\u90e8\u306e\u30b9\u30d1\u30a4\u30af\u30d7\u30ed\u30c6\u30a4\u30f3\u3060\u3051\u3092\u30e6\u30e9\u30e6\u30e9\u3055\u305b\u3064\u3064\u4ed6\u306e\u30b9\u30d1\u30a4\u30af\u3067\u652f\u3048\u308b\u4e2d\u9593\u4f53\u3092\u5f62\u6210\u3059\u308b",
+      "latest_post_url": "https://angama.bearblog.dev/109/"
+    },
     "appleciders.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
       "last_seen_at": "2026-04-06T09:15:48+00:00",
@@ -28,12 +49,26 @@
       "latest_post_title": "I immediately broke one of my mesh radios!!",
       "latest_post_url": "https://blog.lauramichet.com/i-immediately-broke-one-of-my-mesh-radios/"
     },
+    "blog.solazy.me": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T09:30:00+00:00",
+      "latest_post_title": "\u5584\u826f\u4e0e\u8fb9\u754c\u611f",
+      "latest_post_url": "https://blog.solazy.me/20260413/"
+    },
     "bxm.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
       "last_seen_at": "2026-04-06T09:15:48+00:00",
       "latest_post_published_at": "2026-04-06T04:03:00+00:00",
       "latest_post_title": "\u600e\u4e48\u8fd8\u6709\u4eb2\u5988\u5f00\u81ea\u5df1\u7684",
       "latest_post_url": "https://bxm.bearblog.dev/new-post-new/"
+    },
+    "catsandbirdsandstuff.com": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:15:00+00:00",
+      "latest_post_title": "The Cunning Plan Comes to Fruition \u2013 Lisburn, 1977",
+      "latest_post_url": "https://catsandbirdsandstuff.com/the-cunning-plan-comes-to-fruition-lisburn-1977/"
     },
     "cerberus.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
@@ -48,6 +83,20 @@
       "latest_post_published_at": "2026-04-03T20:38:14.835509+00:00",
       "latest_post_title": "Deleted my mastodon",
       "latest_post_url": "https://chupacabra.bearblog.dev/deleted-my-mastodon/"
+    },
+    "clayleatherworks.com": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T09:23:00+00:00",
+      "latest_post_title": "I love you honey",
+      "latest_post_url": "https://clayleatherworks.com/i-love-you-honey/"
+    },
+    "cliffjumper.bearblog.dev": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T09:20:16.828543+00:00",
+      "latest_post_title": "Book review: The Invincible",
+      "latest_post_url": "https://cliffjumper.bearblog.dev/book-review-the-invincible/"
     },
     "conniesue.me": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -84,6 +133,13 @@
       "latest_post_title": "Easter in the Cancer Ward - Poem\u00a0by Nicholas Samaras",
       "latest_post_url": "https://etan.bearblog.dev/easter-in-the-cancer-ward-poem-by-nicholas-samaras/"
     },
+    "foolsgold.bearblog.dev": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:38:15.720944+00:00",
+      "latest_post_title": "Why does life feel so fake sometimes?",
+      "latest_post_url": "https://foolsgold.bearblog.dev/why-does-life-feel-so-fake-sometimes/"
+    },
     "frogwizard.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
@@ -98,6 +154,20 @@
       "latest_post_title": "The Overlap Between the Table and the Classroom",
       "latest_post_url": "https://hemera.bearblog.dev/the-overlap-between-the-table-and-the-classroom/"
     },
+    "hjhmi89.bearblog.dev": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:53:00+00:00",
+      "latest_post_title": "\u901a\u8a0a\u8edf\u9ad4",
+      "latest_post_url": "https://hjhmi89.bearblog.dev/messaging-app/"
+    },
+    "ikdienas.vnkrskdr.lv": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:36:00+00:00",
+      "latest_post_title": "apr.2026",
+      "latest_post_url": "https://ikdienas.vnkrskdr.lv/apr2026/"
+    },
     "imperfect.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
@@ -111,6 +181,13 @@
       "latest_post_published_at": "2026-04-03T19:55:51.539782+00:00",
       "latest_post_title": "\ud83d\udcbf A Lesson On Owning Music",
       "latest_post_url": "https://jamesbaker.uk/a-lesson-on-owning-music/"
+    },
+    "jamesleighton.com": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:00:00+00:00",
+      "latest_post_title": "Week Notes - 2026-15",
+      "latest_post_url": "https://www.jamesleighton.com/week-notes/2026/15/"
     },
     "jdtorian.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
@@ -133,6 +210,13 @@
       "latest_post_title": "How AI changed the way I review code",
       "latest_post_url": "https://kvch.me/how-ai-changed-i-review-code/"
     },
+    "markusicluka.bearblog.dev": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T09:11:20.068478+00:00",
+      "latest_post_title": "Android Studio, without the studio part",
+      "latest_post_url": "https://markusicluka.bearblog.dev/android-studio-no-studio/"
+    },
     "mason.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
       "last_seen_at": "2026-04-06T09:15:48+00:00",
@@ -146,6 +230,20 @@
       "latest_post_published_at": "2026-04-03T19:21:00+00:00",
       "latest_post_title": "call to arts",
       "latest_post_url": "https://mattiverse.online/call-to-arts/"
+    },
+    "miadowicz.com": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T07:00:00+00:00",
+      "latest_post_title": "Agentic UX: Designing In-Product Experiences for AI Agents",
+      "latest_post_url": "https://www.miadowicz.com/agentic-ux-designing-in-product-experiences-for-ai-agents/"
+    },
+    "moodywarlock.net": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T09:31:00+00:00",
+      "latest_post_title": "Now",
+      "latest_post_url": "https://moodywarlock.net/now/"
     },
     "mpmilestogo.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
@@ -175,6 +273,13 @@
       "latest_post_title": "Day 9: Sylvia Townsend Warner, Susan Sontag, Edna Millay",
       "latest_post_url": "https://rabbitreading.bearblog.dev/day-9-sylvia-townsend-warner-susan-sontag-edna-millay/"
     },
+    "readingrecluse.bearblog.dev": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T07:21:00+00:00",
+      "latest_post_title": "\"Kallocain\" by Karin Boye",
+      "latest_post_url": "https://readingrecluse.bearblog.dev/kallocain-by-karin-boye/"
+    },
     "reedybear.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
       "last_seen_at": "2026-04-06T09:15:48+00:00",
@@ -202,6 +307,13 @@
       "latest_post_published_at": "2026-04-03T21:24:00+00:00",
       "latest_post_title": "ABC03 \u2013 Poems for exile",
       "latest_post_url": "https://scholarch.bearblog.dev/abc03-poems-for-exile/"
+    },
+    "sebiwette.de": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T07:14:00+00:00",
+      "latest_post_title": "Some papers on RL environment diffuculty and human perceived difficulty",
+      "latest_post_url": "https://sebiwette.de/some-papers-on-rl-environment-diffuculty-and-human-perceived-difficulty/"
     },
     "streetlightcadence.com": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -238,6 +350,13 @@
       "latest_post_title": "nas ondas do r\u00e1dio",
       "latest_post_url": "https://tomanotas.bearblog.dev/nas-ondas-do-radio/"
     },
+    "tugbakibar.pro": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:45:00+00:00",
+      "latest_post_title": "look for the fear",
+      "latest_post_url": "https://tugbakibar.pro/look-for-the-fear-new/"
+    },
     "unwissen.blog": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
@@ -272,9 +391,16 @@
       "latest_post_published_at": "2026-04-03T21:26:47.678777+00:00",
       "latest_post_title": "Take a break sometimes",
       "latest_post_url": "https://zevvdaily.bearblog.dev/take-a-break-sometimes/"
+    },
+    "zhaomeicheng.bearblog.dev": {
+      "first_seen_at": "2026-04-13T10:01:14+00:00",
+      "last_seen_at": "2026-04-13T10:01:14+00:00",
+      "latest_post_published_at": "2026-04-13T08:11:00+00:00",
+      "latest_post_title": "\u5361\u5c14\u8363\u683c\u76ee\u5f55",
+      "latest_post_url": "https://zhaomeicheng.bearblog.dev/carl/"
     }
   },
   "feed_url": "https://bearblog.dev/discover/feed/?newest=True",
-  "last_refreshed_at": "2026-04-06T09:15:48+00:00",
+  "last_refreshed_at": "2026-04-13T10:01:14+00:00",
   "version": 1
 }
