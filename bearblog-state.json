@@ -2,17 +2,17 @@
   "domains": {
     "1eld.bearblog.dev": {
       "first_seen_at": "2026-04-13T10:01:14+00:00",
-      "last_seen_at": "2026-04-13T10:01:14+00:00",
-      "latest_post_published_at": "2026-04-13T08:45:10.894824+00:00",
-      "latest_post_title": "\uc0b0\uc5c5\uc0ac\ud68c\uc640 \uadf8 \ubbf8\ub798(\uc2dc\uc5b4\ub3c4\uc5b4 \uce74\uc9c4\uc2a4\ud0a4) \uc804\ubb38",
-      "latest_post_url": "https://1eld.bearblog.dev/9009/"
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T06:53:00+00:00",
+      "latest_post_title": "\uc720\uad50\uc640 \ub2e4\ubb38\ud654 - \uad6d\uc5b4 \uc218\ud589\ud3c9\uac00 \ube44\ud3c9\uae00",
+      "latest_post_url": "https://1eld.bearblog.dev/8149/"
     },
     "73pctgeek.com": {
       "first_seen_at": "2026-04-13T10:01:14+00:00",
-      "last_seen_at": "2026-05-11T11:30:10+00:00",
-      "latest_post_published_at": "2026-05-11T10:58:11+00:00",
-      "latest_post_title": "862",
-      "latest_post_url": "https://73pctgeek.com/862/"
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T08:09:49+00:00",
+      "latest_post_title": "869",
+      "latest_post_url": "https://73pctgeek.com/869/"
     },
     "afarshadblog.bearblog.dev": {
       "first_seen_at": "2026-05-11T11:30:10+00:00",
@@ -90,6 +90,13 @@
       "latest_post_published_at": "2026-04-27T07:39:00+00:00",
       "latest_post_title": "I won't watch short form videos.",
       "latest_post_url": "https://binaryribbons01111011.bearblog.dev/i-wont-watch-short-form-videos/"
+    },
+    "blog.avas.space": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T09:59:00+00:00",
+      "latest_post_title": "many people's business is really not that impressive",
+      "latest_post_url": "https://blog.avas.space/disappointing-companies/"
     },
     "blog.catshavenolord.page": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -231,12 +238,40 @@
       "latest_post_title": "Ga harus jadi Protagonis adalah sebuah profesionalitas",
       "latest_post_url": "https://derbyrumero.com/ga-harus-jadi-protagonis-adalah-sebuah-profesionalitas/"
     },
+    "emeraldsip.cafe": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T08:23:00+00:00",
+      "latest_post_title": "Premium Matcha Tea by Good Wei",
+      "latest_post_url": "https://emeraldsip.cafe/goodwei/"
+    },
+    "esperance.bearblog.dev": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T09:58:00+00:00",
+      "latest_post_title": "\u6211\u70ed\u7231\u7684\u529f\u592b\u8336",
+      "latest_post_url": "https://esperance.bearblog.dev/5953/"
+    },
+    "estudely.com": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T08:58:00+00:00",
+      "latest_post_title": "Iron in our veins",
+      "latest_post_url": "https://estudely.com/iron-in-our-veins/"
+    },
     "etan.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
       "last_seen_at": "2026-04-06T09:15:48+00:00",
       "latest_post_published_at": "2026-04-06T06:00:00+00:00",
       "latest_post_title": "Easter in the Cancer Ward - Poem\u00a0by Nicholas Samaras",
       "latest_post_url": "https://etan.bearblog.dev/easter-in-the-cancer-ward-poem-by-nicholas-samaras/"
+    },
+    "ff8282.bearblog.dev": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T11:05:18.536492+00:00",
+      "latest_post_title": "New post",
+      "latest_post_url": "https://ff8282.bearblog.dev/new-post/"
     },
     "fischr.org": {
       "first_seen_at": "2026-04-20T10:03:28+00:00",
@@ -279,6 +314,20 @@
       "latest_post_published_at": "2026-05-11T08:27:33.034658+00:00",
       "latest_post_title": "Ancient Welsh Hydration Protocol\u2122",
       "latest_post_url": "https://grumpywelshman.com/ancient-welsh-hydration-protocoltm/"
+    },
+    "hanki.dev": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T07:51:29.960228+00:00",
+      "latest_post_title": "website blocking which works long term",
+      "latest_post_url": "https://hanki.dev/website-blocking-which-works-long-term/"
+    },
+    "haraiva.bearblog.dev": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T10:20:00+00:00",
+      "latest_post_title": "Ten significant Australian-made games, and how they relate to the National Cultural Policy",
+      "latest_post_url": "https://haraiva.bearblog.dev/ten-significant-australian-made-games/"
     },
     "hemera.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -336,6 +385,13 @@
       "latest_post_title": "Cigarette Granny",
       "latest_post_url": "https://jdtorian.bearblog.dev/cigarette-granny/"
     },
+    "johnworker.bearblog.dev": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T08:16:00+00:00",
+      "latest_post_title": "\u73fe\u5728\uff0c\u6211\u4e5f\u6709\u6708\u4eae\u548c\u592a\u967d\uff0c\u9084\u6709\u5404\u7a2e\u6771\u897f",
+      "latest_post_url": "https://johnworker.bearblog.dev/962/"
+    },
     "jollyanchorblog.bearblog.dev": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
       "last_seen_at": "2026-04-06T09:15:48+00:00",
@@ -370,6 +426,13 @@
       "latest_post_published_at": "2026-04-27T07:47:00+00:00",
       "latest_post_title": "Amal El-Mohtar and Max Gladstone - This is How You Lose the Time War",
       "latest_post_url": "https://kermit.bearblog.dev/amal-el-mohtar-and-max-gladstone-this-is-how-you-lose-the-time-war/"
+    },
+    "kix.codes": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T09:11:00+00:00",
+      "latest_post_title": "Anthropic is Scrooge McDuck",
+      "latest_post_url": "https://kix.codes/anthropic-is-scrooge-mcduck/"
     },
     "kludge.bearblog.dev": {
       "first_seen_at": "2026-05-11T11:30:10+00:00",
@@ -441,6 +504,13 @@
       "latest_post_title": "Agentic UX: Designing In-Product Experiences for AI Agents",
       "latest_post_url": "https://www.miadowicz.com/agentic-ux-designing-in-product-experiences-for-ai-agents/"
     },
+    "minuitdansledesert.bearblog.dev": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T11:15:00+00:00",
+      "latest_post_title": "Les arch\u00e9types f\u00e9minins selon Jean Shinoda Bolen, transpos\u00e9s \u00e0 ma vie",
+      "latest_post_url": "https://minuitdansledesert.bearblog.dev/les-archetypes-feminins-selon-jean-shinoda-bolen-transposes-a-ma-vie/"
+    },
     "moodywarlock.net": {
       "first_seen_at": "2026-04-13T10:01:14+00:00",
       "last_seen_at": "2026-05-04T10:18:58+00:00",
@@ -461,6 +531,13 @@
       "latest_post_published_at": "2026-04-20T04:50:57.371933+00:00",
       "latest_post_title": "\u5217\u738b\u8bb0\u4e0b \u7b2c10\u7ae0 \u6982\u89c8",
       "latest_post_url": "https://mulingyulingxiu.com/2-kings-10/"
+    },
+    "musagates.bearblog.dev": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T07:36:00+00:00",
+      "latest_post_title": "Nobody wants to be a retard",
+      "latest_post_url": "https://musagates.bearblog.dev/9283/"
     },
     "musing.ispretty.fyi": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
@@ -560,6 +637,13 @@
       "latest_post_title": "Getting a right angle with nothing but a tape measure",
       "latest_post_url": "https://reedybear.bearblog.dev/getting-a-right-angle-with-nothing-but-a-tape-measure/"
     },
+    "robertbirming.com": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T09:40:00+00:00",
+      "latest_post_title": "Movie log: what I've watched lately",
+      "latest_post_url": "https://robertbirming.com/movielog/"
+    },
     "romainleclaire.com": {
       "first_seen_at": "2026-04-27T10:22:51+00:00",
       "last_seen_at": "2026-04-27T10:22:51+00:00",
@@ -630,6 +714,13 @@
       "latest_post_title": "\u5acc\u3044\u5bb6",
       "latest_post_url": "https://silky.bearblog.dev/kiraiya/"
     },
+    "skuka.online": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T10:14:32.989561+00:00",
+      "latest_post_title": "insight for people who have to use instagram but hate instagram (i.e. me)",
+      "latest_post_url": "https://skuka.online/insight-for-people-who-have-to-use-instagram-but-hate-instagram-ie-me/"
+    },
     "souravsharma.bearblog.dev": {
       "first_seen_at": "2026-05-11T11:30:10+00:00",
       "last_seen_at": "2026-05-11T11:30:10+00:00",
@@ -664,6 +755,13 @@
       "latest_post_published_at": "2026-04-03T21:53:00+00:00",
       "latest_post_title": "+1 for indie music",
       "latest_post_url": "https://streetlightcadence.com/1-for-indie-music/"
+    },
+    "stygmaty.pl": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T06:44:00+00:00",
+      "latest_post_title": "Who cares for my English posts?",
+      "latest_post_url": "https://www.stygmaty.pl/who-cares-for-my-english-posts/"
     },
     "sweetdisposition.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -742,6 +840,13 @@
       "latest_post_title": "Queerness in Space - Gay Beholder Blog Fiesta",
       "latest_post_url": "https://vdonnutvalley.bearblog.dev/queerness-in-space-gay-beholder-blog-fiesta/"
     },
+    "vinceblog.net": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T06:51:00+00:00",
+      "latest_post_title": "Now",
+      "latest_post_url": "https://vinceblog.net/now/"
+    },
     "wilowsballoc.bearblog.dev": {
       "first_seen_at": "2026-04-27T10:22:51+00:00",
       "last_seen_at": "2026-04-27T10:22:51+00:00",
@@ -755,6 +860,13 @@
       "latest_post_published_at": "2026-04-03T19:14:30.407990+00:00",
       "latest_post_title": "initial-commit",
       "latest_post_url": "https://wiredforbooks.bearblog.dev/initial-commit/"
+    },
+    "yak.bearblog.dev": {
+      "first_seen_at": "2026-05-18T11:49:10+00:00",
+      "last_seen_at": "2026-05-18T11:49:10+00:00",
+      "latest_post_published_at": "2026-05-18T07:11:00+00:00",
+      "latest_post_title": "stop trying",
+      "latest_post_url": "https://yak.bearblog.dev/stop-trying/"
     },
     "yizcounty.rodeo": {
       "first_seen_at": "2026-05-04T10:18:58+00:00",
@@ -800,6 +912,6 @@
     }
   },
   "feed_url": "https://bearblog.dev/discover/feed/?newest=True",
-  "last_refreshed_at": "2026-05-11T11:30:10+00:00",
+  "last_refreshed_at": "2026-05-18T11:49:10+00:00",
   "version": 1
 }
