@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T11:56:28+00:00",
+  "generated_at": "2026-06-01T13:42:08+00:00",
   "sources": [
     {
       "count": 730,
@@ -8,7 +8,7 @@
       "url": "https://refactoringenglish.com/tools/hn-popularity"
     },
     {
-      "count": 20,
+      "count": 19,
       "id": "bearblog-newest",
       "label": "Bear Blog newest discovery feed",
       "url": "https://bearblog.dev/discover/?newest=true"
