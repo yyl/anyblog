@@ -84,6 +84,20 @@
       "latest_post_title": "Your life is your life\u2019s savings",
       "latest_post_url": "https://aleksei.dev/your-life-is-your-lifes-savings/"
     },
+    "alexanderbjoy.com": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T15:15:00+00:00",
+      "latest_post_title": "News Archive",
+      "latest_post_url": "https://alexanderbjoy.com/news-archive/"
+    },
+    "allthebooks.bearblog.dev": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T14:14:21.889783+00:00",
+      "latest_post_title": "Gorse",
+      "latest_post_url": "https://allthebooks.bearblog.dev/gorse/"
+    },
     "alwaysdraft.com": {
       "first_seen_at": "2026-06-01T13:42:08+00:00",
       "last_seen_at": "2026-06-01T13:42:08+00:00",
@@ -224,6 +238,13 @@
       "latest_post_title": "I won't watch short form videos.",
       "latest_post_url": "https://binaryribbons01111011.bearblog.dev/i-wont-watch-short-form-videos/"
     },
+    "blighttown.bearblog.dev": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T14:26:00+00:00",
+      "latest_post_title": "Mundane extremism",
+      "latest_post_url": "https://blighttown.bearblog.dev/mundane-extremism-new/"
+    },
     "blog.avas.space": {
       "first_seen_at": "2026-05-18T11:49:10+00:00",
       "last_seen_at": "2026-08-03T11:31:11+00:00",
@@ -244,6 +265,13 @@
       "latest_post_published_at": "2026-06-29T11:29:00+00:00",
       "latest_post_title": "I Think We've All Seen Enough Dragons on Black T-Shirts",
       "latest_post_url": "https://blog.gainfulbhaji.com/dnd-class-merchandise/"
+    },
+    "blog.jiseophan.com": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T15:14:00+00:00",
+      "latest_post_title": "26-08-31: \ub2e4\ub0ad, \ud2b9\uc774\uc810, \ud3f4\ub9ac\ub9c8\ucf13",
+      "latest_post_url": "https://blog.jiseophan.com/26-08-31/"
     },
     "blog.katemonkey.com": {
       "first_seen_at": "2026-05-04T10:18:58+00:00",
@@ -342,6 +370,13 @@
       "latest_post_published_at": "2026-08-10T08:26:48.517834+00:00",
       "latest_post_title": "Jak se m\u011bn\u00ed hladina serotoninu, kdy\u017e mus\u00ed z\u00edskat kamar\u00e1dy jinde?",
       "latest_post_url": "https://bohnice.bearblog.dev/jak-se-meni-hladina-serotoninu-kdyz-musi-ziskat-kamarady-jinde/"
+    },
+    "bookbinding.bearblog.dev": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T15:00:38.322065+00:00",
+      "latest_post_title": "My First Designer Bind",
+      "latest_post_url": "https://bookbinding.bearblog.dev/my-first-designer-bind/"
     },
     "brackish-draught.bearblog.dev": {
       "first_seen_at": "2026-06-29T12:38:46+00:00",
@@ -583,10 +618,10 @@
     },
     "doghappylife.bearblog.dev": {
       "first_seen_at": "2026-07-27T11:30:03+00:00",
-      "last_seen_at": "2026-08-03T11:31:11+00:00",
-      "latest_post_published_at": "2026-08-03T07:43:00+00:00",
-      "latest_post_title": "\u70ba\u4ec0\u9ebc\u6211\u7684\u72d7\u53eb\u4e0d\u4f86",
-      "latest_post_url": "https://doghappylife.bearblog.dev/8121/"
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T13:49:00+00:00",
+      "latest_post_title": "\u7b2c\u4e00\u6b21\u4e0a\u8ab2",
+      "latest_post_url": "https://doghappylife.bearblog.dev/953/"
     },
     "dostoynikov.com": {
       "first_seen_at": "2026-07-27T11:30:03+00:00",
@@ -737,10 +772,10 @@
     },
     "forkingmad.blog": {
       "first_seen_at": "2026-06-01T13:42:08+00:00",
-      "last_seen_at": "2026-06-01T13:42:08+00:00",
-      "latest_post_published_at": "2026-06-01T13:18:00+00:00",
-      "latest_post_title": "Apparently I am Mad!",
-      "latest_post_url": "https://forkingmad.blog/apparently-mad/"
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T14:50:00+00:00",
+      "latest_post_title": "Wide Not Tall",
+      "latest_post_url": "https://forkingmad.blog/wide-not-tall/"
     },
     "fornoone.bearblog.dev": {
       "first_seen_at": "2026-06-15T14:28:41+00:00",
@@ -840,6 +875,13 @@
       "latest_post_title": "The Overlap Between the Table and the Classroom",
       "latest_post_url": "https://hemera.bearblog.dev/the-overlap-between-the-table-and-the-classroom/"
     },
+    "heurista.net": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T13:56:00+00:00",
+      "latest_post_title": "Leadership versus Power",
+      "latest_post_url": "https://heurista.net/leadership-versus-power/"
+    },
     "hjhmi89.bearblog.dev": {
       "first_seen_at": "2026-04-13T10:01:14+00:00",
       "last_seen_at": "2026-08-24T08:53:40+00:00",
@@ -881,6 +923,13 @@
       "latest_post_published_at": "2026-04-13T08:36:00+00:00",
       "latest_post_title": "apr.2026",
       "latest_post_url": "https://ikdienas.vnkrskdr.lv/apr2026/"
+    },
+    "imdanielkendall.com": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T13:49:00+00:00",
+      "latest_post_title": "mpvKt-fork Rebuilding the Best Video Player on Android: Modern UI, Bug Fixes, and Cross-Platform Sync",
+      "latest_post_url": "https://imdanielkendall.com/mpvkt-fork-rebuilding-the-best-video-player-on-android-modern-ui-bug-fixes-and-cross-platform-sync/"
     },
     "imperfect.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
@@ -980,6 +1029,13 @@
       "latest_post_title": "week end",
       "latest_post_url": "https://jollyanchorblog.bearblog.dev/week-end/"
     },
+    "jorgelongobardo.xyz": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T13:45:00+00:00",
+      "latest_post_title": "Subscribe to Newsletter",
+      "latest_post_url": "https://jorgelongobardo.xyz/newsletter/"
+    },
     "jp.ikukaroom.com": {
       "first_seen_at": "2026-04-27T10:22:51+00:00",
       "last_seen_at": "2026-04-27T10:22:51+00:00",
@@ -1000,6 +1056,13 @@
       "latest_post_published_at": "2026-05-11T09:37:00+00:00",
       "latest_post_title": "Away.",
       "latest_post_url": "https://justkeeptyping.bearblog.dev/away/"
+    },
+    "kadraliev.com": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T13:46:03.557239+00:00",
+      "latest_post_title": "\u0411\u0435\u0437\u0443\u0441\u043b\u043e\u0432\u043d\u0430\u044f \u043b\u044e\u0431\u043e\u0432\u044c \u043a \u0441\u0435\u0431\u0435 / Unconditional love to myself",
+      "latest_post_url": "https://kadraliev.com/unconditional-love-to-myself/"
     },
     "kailo.bearblog.dev": {
       "first_seen_at": "2026-07-27T11:30:03+00:00",
@@ -1365,6 +1428,13 @@
       "latest_post_title": "Thoughts on Dirty Frag",
       "latest_post_url": "https://nflatrea.bearblog.dev/thoughts-on-dirty-frag/"
     },
+    "nikhil.bearblog.dev": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T14:42:00+00:00",
+      "latest_post_title": "The Leverage of Politeness",
+      "latest_post_url": "https://nikhil.bearblog.dev/the-leverage-of-politeness/"
+    },
     "noesworthy.bearblog.dev": {
       "first_seen_at": "2026-06-01T13:42:08+00:00",
       "last_seen_at": "2026-06-01T13:42:08+00:00",
@@ -1463,12 +1533,26 @@
       "latest_post_title": "Maldi\u00e7\u00e3o e b\u00ean\u00e7\u00e3o",
       "latest_post_url": "https://paraquemencontrar.bearblog.dev/maldicao-e-bencao/"
     },
+    "peelingtheonion.bearblog.dev": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T14:45:00+00:00",
+      "latest_post_title": "memories of dreams",
+      "latest_post_url": "https://peelingtheonion.bearblog.dev/memories-of-dreams/"
+    },
     "perennialsif.me": {
       "first_seen_at": "2026-05-11T11:30:10+00:00",
       "last_seen_at": "2026-05-11T11:30:10+00:00",
       "latest_post_published_at": "2026-05-11T07:06:33.464248+00:00",
       "latest_post_title": "projects",
       "latest_post_url": "https://perennialsif.me/projects/"
+    },
+    "perfumeandletters.bearblog.dev": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T15:03:17.629900+00:00",
+      "latest_post_title": "Let August, Be August",
+      "latest_post_url": "https://perfumeandletters.bearblog.dev/let-august-be-august/"
     },
     "peteredu.bearblog.dev": {
       "first_seen_at": "2026-05-25T11:56:28+00:00",
@@ -1645,6 +1729,13 @@
       "latest_post_title": "ABC03 \u2013 Poems for exile",
       "latest_post_url": "https://scholarch.bearblog.dev/abc03-poems-for-exile/"
     },
+    "scribblypam.bearblog.dev": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T15:03:00+00:00",
+      "latest_post_title": "A Month I'm Grateful for",
+      "latest_post_url": "https://scribblypam.bearblog.dev/a-month-im-grateful-for/"
+    },
     "sebiwette.de": {
       "first_seen_at": "2026-04-13T10:01:14+00:00",
       "last_seen_at": "2026-04-13T10:01:14+00:00",
@@ -1729,6 +1820,13 @@
       "latest_post_title": "\"Heroes\"",
       "latest_post_url": "https://slowburn.bearblog.dev/heroes/"
     },
+    "soapy.bearblog.dev": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T13:58:00+00:00",
+      "latest_post_title": "daydream",
+      "latest_post_url": "https://soapy.bearblog.dev/daydream/"
+    },
     "souravsharma.bearblog.dev": {
       "first_seen_at": "2026-05-11T11:30:10+00:00",
       "last_seen_at": "2026-05-11T11:30:10+00:00",
@@ -1784,6 +1882,13 @@
       "latest_post_published_at": "2026-07-20T09:38:00+00:00",
       "latest_post_title": "B\u0119dzie o TikToku",
       "latest_post_url": "https://www.stygmaty.pl/bedzie-o-tiktoku/"
+    },
+    "suarane.id": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T14:24:00+00:00",
+      "latest_post_title": "ASN Adalah Kita",
+      "latest_post_url": "https://suarane.id/asn-adalah-kita/"
     },
     "suzin.bearblog.dev": {
       "first_seen_at": "2026-07-06T12:08:35+00:00",
@@ -1897,6 +2002,13 @@
       "latest_post_title": "bloatmaxxing my digital spaces",
       "latest_post_url": "https://tofukat.bearblog.dev/bloatmaxxing-my-digital-spaces/"
     },
+    "tokleine.de": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T15:03:00+00:00",
+      "latest_post_title": "Search is dead, long live agentic search",
+      "latest_post_url": "https://tokleine.de/search-is-dead-long-live-agentic-search/"
+    },
     "tomanotas.bearblog.dev": {
       "first_seen_at": "2026-04-03T23:07:33+00:00",
       "last_seen_at": "2026-04-03T23:07:33+00:00",
@@ -1934,10 +2046,10 @@
     },
     "turbiegaming.bearblog.dev": {
       "first_seen_at": "2026-06-22T13:39:05+00:00",
-      "last_seen_at": "2026-08-10T09:38:12+00:00",
-      "latest_post_published_at": "2026-08-10T06:40:00+00:00",
-      "latest_post_title": "Re: The Backend Blogging Stuff + AuguStory Question",
-      "latest_post_url": "https://turbiegaming.bearblog.dev/re-the-backend-blogging-stuff/"
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T14:03:18.250471+00:00",
+      "latest_post_title": "Change Some Pages' Publishing Date and End of the Month",
+      "latest_post_url": "https://turbiegaming.bearblog.dev/change-some-pages-publishing-date-and-end-of-the-month/"
     },
     "ulik.bearblog.dev": {
       "first_seen_at": "2026-04-20T10:03:28+00:00",
@@ -1987,6 +2099,13 @@
       "latest_post_published_at": "2026-06-22T11:39:06.763907+00:00",
       "latest_post_title": "Learning to drive a manual",
       "latest_post_url": "https://valerakushnir.com/blog/learning-to-drive-a-manual/"
+    },
+    "valuefinancial.nl": {
+      "first_seen_at": "2026-08-31T16:01:12+00:00",
+      "last_seen_at": "2026-08-31T16:01:12+00:00",
+      "latest_post_published_at": "2026-08-31T13:36:00+00:00",
+      "latest_post_title": "Wat er sinds half augustus \u00e9cht veranderd is in Workflow & Taken",
+      "latest_post_url": "https://valuefinancial.nl/wat-er-sinds-half-augustus-echt-veranderd-is-in-workflow-taken/"
     },
     "vaudevillegho.st": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
@@ -2179,6 +2298,6 @@
     }
   },
   "feed_url": "https://bearblog.dev/discover/feed/?newest=True",
-  "last_refreshed_at": "2026-08-24T08:53:40+00:00",
+  "last_refreshed_at": "2026-08-31T16:01:12+00:00",
   "version": 1
 }
