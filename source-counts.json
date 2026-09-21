@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-14T14:54:03+00:00",
+  "generated_at": "2026-09-21T15:00:05+00:00",
   "sources": [
     {
-      "count": 855,
+      "count": 853,
       "id": "hn-popularity",
       "label": "Hacker News Popularity Contest",
       "url": "https://refactoringenglish.com/tools/hn-popularity"
     },
     {
-      "count": 19,
+      "count": 17,
       "id": "bearblog-newest",
       "label": "Bear Blog newest discovery feed",
       "url": "https://bearblog.dev/discover/?newest=true"
