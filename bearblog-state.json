@@ -1,5 +1,12 @@
 {
   "domains": {
+    "0d15ea5e.net": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T17:07:00+00:00",
+      "latest_post_title": "Video game reviews",
+      "latest_post_url": "https://0d15ea5e.net/video-game-reviews/"
+    },
     "1eld.bearblog.dev": {
       "first_seen_at": "2026-04-13T10:01:14+00:00",
       "last_seen_at": "2026-05-18T11:49:10+00:00",
@@ -121,10 +128,10 @@
     },
     "ajonjoli.bearblog.dev": {
       "first_seen_at": "2026-11-09T18:34:12+00:00",
-      "last_seen_at": "2026-11-09T18:34:12+00:00",
-      "latest_post_published_at": "2026-11-09T17:26:00+00:00",
-      "latest_post_title": "feliz o dormidi",
-      "latest_post_url": "https://ajonjoli.bearblog.dev/feliz-o-dormidi/"
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T16:50:00+00:00",
+      "latest_post_title": "carita de una criaturita",
+      "latest_post_url": "https://ajonjoli.bearblog.dev/carita-de-una-criaturita/"
     },
     "aleksei.dev": {
       "first_seen_at": "2026-04-20T10:03:28+00:00",
@@ -721,6 +728,13 @@
       "latest_post_title": "I May Have Mooned a Neighbor (Again)",
       "latest_post_url": "https://conniesue.me/i-may-have-mooned-a-neighbor-again/"
     },
+    "containsnosquid.com": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T16:51:08.168821+00:00",
+      "latest_post_title": "Why not squid?",
+      "latest_post_url": "https://containsnosquid.com/why-not-squid/"
+    },
     "coppershaman.com": {
       "first_seen_at": "2026-08-03T11:31:11+00:00",
       "last_seen_at": "2026-08-03T11:31:11+00:00",
@@ -980,6 +994,13 @@
       "latest_post_title": "New post",
       "latest_post_url": "https://ff8282.bearblog.dev/new-post/"
     },
+    "fionntantapes.ie": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T15:01:00+00:00",
+      "latest_post_title": "Lore from the Nore",
+      "latest_post_url": "https://fionntantapes.ie/lore-from-the-nore/"
+    },
     "fischr.org": {
       "first_seen_at": "2026-04-20T10:03:28+00:00",
       "last_seen_at": "2026-04-20T10:03:28+00:00",
@@ -1211,6 +1232,13 @@
       "latest_post_title": "experience being bald",
       "latest_post_url": "https://icyti.me/experience-being-bald/"
     },
+    "igetideal.bearblog.dev": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T16:24:21.990270+00:00",
+      "latest_post_title": "\u5341\u4e00\u6708\u4e2d",
+      "latest_post_url": "https://igetideal.bearblog.dev/570/"
+    },
     "ikdienas.vnkrskdr.lv": {
       "first_seen_at": "2026-04-13T10:01:14+00:00",
       "last_seen_at": "2026-04-13T10:01:14+00:00",
@@ -1421,6 +1449,13 @@
       "latest_post_title": "The Book of Temples Chapter 52",
       "latest_post_url": "https://keeperoflore.com/the-book-of-temples-chapter-52/"
     },
+    "kemera.blog.br": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T17:15:00+00:00",
+      "latest_post_title": "A magia de jogar videogames single-player no modo cooperativo",
+      "latest_post_url": "https://kemera.blog.br/blog/a-magia-de-jogar-videogames-single-player-no-modo-cooperativo/"
+    },
     "kennyqin.com": {
       "first_seen_at": "2026-08-17T08:49:32+00:00",
       "last_seen_at": "2026-08-17T08:49:32+00:00",
@@ -1455,6 +1490,13 @@
       "latest_post_published_at": "2026-09-14T13:08:00+00:00",
       "latest_post_title": "Finishing Campaigns",
       "latest_post_url": "https://kludge.bearblog.dev/finishing-campaigns/"
+    },
+    "kosti.bearblog.dev": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T16:26:45.247387+00:00",
+      "latest_post_title": "Quadratic forms of standard normal variables and estimates of trace",
+      "latest_post_url": "https://kosti.bearblog.dev/quadratic-forms-of-standard-normal-variables-and-estimates-of-trace/"
     },
     "kvch.me": {
       "first_seen_at": "2026-04-06T09:15:48+00:00",
@@ -1493,10 +1535,10 @@
     },
     "leahland.bearblog.dev": {
       "first_seen_at": "2026-06-22T13:39:05+00:00",
-      "last_seen_at": "2026-06-22T13:39:05+00:00",
-      "latest_post_published_at": "2026-06-22T12:12:45.599144+00:00",
-      "latest_post_title": "Seventeen discography relisten: teleparty (bss)",
-      "latest_post_url": "https://leahland.bearblog.dev/seventeen-discography-relisten-teleparty-bss/"
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T17:23:19.504497+00:00",
+      "latest_post_title": "chaeryeong's lovesick ranking",
+      "latest_post_url": "https://leahland.bearblog.dev/chaeryeongs-lovesick-ranking/"
     },
     "lectures.bearblog.dev": {
       "first_seen_at": "2026-07-06T12:08:35+00:00",
@@ -1518,6 +1560,13 @@
       "latest_post_published_at": "2026-08-03T09:47:00+00:00",
       "latest_post_title": "Good Byes",
       "latest_post_url": "https://legs.bearblog.dev/larkin-horse-9/"
+    },
+    "lelelife.bearblog.dev": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T14:51:00+00:00",
+      "latest_post_title": "\u8aa0\u5fb5\u9f3b\u53cb\uff08\u4e00\uff09\uff1a\u9580\u4e0b\u7684\u72d7\u9f3b\u5b50",
+      "latest_post_url": "https://lelelife.bearblog.dev/896/"
     },
     "lettersfrombeeftown.bearblog.dev": {
       "first_seen_at": "2026-09-21T15:00:05+00:00",
@@ -2137,10 +2186,10 @@
     },
     "pretendtypewriter.net": {
       "first_seen_at": "2026-10-05T16:59:28+00:00",
-      "last_seen_at": "2026-11-09T18:34:12+00:00",
-      "latest_post_published_at": "2026-11-09T16:34:00+00:00",
-      "latest_post_title": "MONDAY CLEANING: BATHROOM, (SLOWLY) PUTTING H'WEEN DECOR AWAY",
-      "latest_post_url": "https://pretendtypewriter.net/monday-cleaning-bathroom-slowly-putting-hween-decor-away/"
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T16:39:00+00:00",
+      "latest_post_title": "MONDAY CLEANING: HALLWAY, DINING TABLE, HOUSEPLANT",
+      "latest_post_url": "https://pretendtypewriter.net/monday-cleaning-hallway-dining-table/"
     },
     "princetonponders.bearblog.dev": {
       "first_seen_at": "2026-10-19T15:24:34+00:00",
@@ -2148,6 +2197,13 @@
       "latest_post_published_at": "2026-10-19T13:09:28.369884+00:00",
       "latest_post_title": "I'm home!!",
       "latest_post_url": "https://princetonponders.bearblog.dev/im-home/"
+    },
+    "pro-chitat.ru": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T14:56:00+00:00",
+      "latest_post_title": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0433\u0440\u0430\u043c\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432 \u043b\u0435\u0441\u043e\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0435\u0439",
+      "latest_post_url": "https://www.pro-chitat.ru/5421/"
     },
     "psychedelic-home.bearblog.dev": {
       "first_seen_at": "2026-04-20T10:03:28+00:00",
@@ -2389,10 +2445,10 @@
     },
     "sesame.bearblog.dev": {
       "first_seen_at": "2026-09-14T14:54:03+00:00",
-      "last_seen_at": "2026-11-09T18:34:12+00:00",
-      "latest_post_published_at": "2026-11-09T17:30:00+00:00",
-      "latest_post_title": "happy or sleeping",
-      "latest_post_url": "https://sesame.bearblog.dev/happy-or-sleeping/"
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T17:01:59.941877+00:00",
+      "latest_post_title": "creatures face",
+      "latest_post_url": "https://sesame.bearblog.dev/creatures-face/"
     },
     "shed91.bearblog.dev": {
       "first_seen_at": "2026-09-28T16:37:41+00:00",
@@ -2452,10 +2508,10 @@
     },
     "skuka.online": {
       "first_seen_at": "2026-05-18T11:49:10+00:00",
-      "last_seen_at": "2026-06-22T13:39:05+00:00",
-      "latest_post_published_at": "2026-06-22T12:41:02.588957+00:00",
-      "latest_post_title": "will sense prevail in my job search or will i become an \"ai-first\" dev?",
-      "latest_post_url": "https://skuka.online/will-sense-prevail-in-my-job-search-or-will-i-become-an-ai-first-dev/"
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T17:14:00.887305+00:00",
+      "latest_post_title": "a soap bubble floating through space",
+      "latest_post_url": "https://skuka.online/a-soap-bubble-floating-through-space/"
     },
     "sloanehydra.com": {
       "first_seen_at": "2026-08-17T08:49:32+00:00",
@@ -2562,6 +2618,13 @@
       "latest_post_title": "Object 003 - N.011 : On the Town",
       "latest_post_url": "https://subtleharlot.com/object-003-n011-on-the-town/"
     },
+    "susannedoesthesouthwest.com": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T17:17:41.104511+00:00",
+      "latest_post_title": "Tucson, Arizona",
+      "latest_post_url": "https://www.susannedoesthesouthwest.com/tucson-arizona/"
+    },
     "suzin.bearblog.dev": {
       "first_seen_at": "2026-07-06T12:08:35+00:00",
       "last_seen_at": "2026-08-17T08:49:32+00:00",
@@ -2617,6 +2680,13 @@
       "latest_post_published_at": "2026-11-09T17:28:00+00:00",
       "latest_post_title": "Extending Blackjack as a Resolution Engine",
       "latest_post_url": "https://tbr.bearblog.dev/extending-blackjack-as-a-resolution-engine/"
+    },
+    "tea-diary.bearblog.dev": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T17:10:39.817810+00:00",
+      "latest_post_title": "Totally fine!",
+      "latest_post_url": "https://tea-diary.bearblog.dev/totally-fine/"
     },
     "teddyaryono.dev": {
       "first_seen_at": "2026-06-08T12:38:04+00:00",
@@ -2781,10 +2851,10 @@
     },
     "turbiegaming.bearblog.dev": {
       "first_seen_at": "2026-06-22T13:39:05+00:00",
-      "last_seen_at": "2026-11-09T18:34:12+00:00",
-      "latest_post_published_at": "2026-11-09T16:00:03.892209+00:00",
-      "latest_post_title": "Silver Palace is Releasing on December 14th",
-      "latest_post_url": "https://turbiegaming.bearblog.dev/silver-palace-is-releasing-on-december-14th/"
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T15:43:33.267067+00:00",
+      "latest_post_title": "ETS2's Coach and Iceland DLC",
+      "latest_post_url": "https://turbiegaming.bearblog.dev/ets2s-coach-and-iceland-dlc/"
     },
     "ulik.bearblog.dev": {
       "first_seen_at": "2026-04-20T10:03:28+00:00",
@@ -2940,6 +3010,13 @@
       "latest_post_title": "thoughts in orbit",
       "latest_post_url": "https://woolgathering.bearblog.dev/thoughts-in-orbit/"
     },
+    "work.bearblog.dev": {
+      "first_seen_at": "2026-11-16T18:11:29+00:00",
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T14:56:58.748364+00:00",
+      "latest_post_title": "Constitutional Law: Structure and Powers",
+      "latest_post_url": "https://work.bearblog.dev/constitutional-law-structure-and-powers/"
+    },
     "writer.andersmartinhelle.com": {
       "first_seen_at": "2026-08-17T08:49:32+00:00",
       "last_seen_at": "2026-08-17T08:49:32+00:00",
@@ -2984,10 +3061,10 @@
     },
     "xiaofeixia.bearblog.dev": {
       "first_seen_at": "2026-07-20T11:05:53+00:00",
-      "last_seen_at": "2026-07-20T11:05:53+00:00",
-      "latest_post_published_at": "2026-07-20T05:57:00+00:00",
-      "latest_post_title": "\u300a\u897f\u5357\u8054\u5927\u903b\u8f91\u5b66\u901a\u8bc6\u8bfe\u300b\u7b2c\u4e8c\u7ae0 part6",
-      "latest_post_url": "https://xiaofeixia.bearblog.dev/part6/"
+      "last_seen_at": "2026-11-16T18:11:29+00:00",
+      "latest_post_published_at": "2026-11-16T15:08:00+00:00",
+      "latest_post_title": "\u300a\u5982\u4f55\u9605\u8bfb\u4e00\u68f5\u6811\u300bpart_2",
+      "latest_post_url": "https://xiaofeixia.bearblog.dev/part_2-2/"
     },
     "yak.bearblog.dev": {
       "first_seen_at": "2026-05-18T11:49:10+00:00",
@@ -3082,6 +3159,6 @@
     }
   },
   "feed_url": "https://bearblog.dev/discover/feed/?newest=True",
-  "last_refreshed_at": "2026-11-09T18:34:12+00:00",
+  "last_refreshed_at": "2026-11-16T18:11:29+00:00",
   "version": 1
 }
